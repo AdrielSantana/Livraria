@@ -1,3 +1,9 @@
+package social.adrielsan.livraria.teste;
+
+import social.adrielsan.livraria.produtos.Ebook;
+import social.adrielsan.livraria.produtos.LivroFisico;
+import social.adrielsan.livraria.Autor;
+
 public class RegrasDeDesconto{
     public static void main(String[] args) {
 

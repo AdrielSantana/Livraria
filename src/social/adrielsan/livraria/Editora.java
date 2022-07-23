@@ -1,3 +1,5 @@
+package social.adrielsan.livraria;
+
 public class Editora {
 
     private String nomeFantasia;

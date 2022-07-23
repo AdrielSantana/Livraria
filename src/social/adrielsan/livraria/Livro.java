@@ -1,3 +1,8 @@
+package social.adrielsan.livraria;
+
+import social.adrielsan.livraria.exception.AutorNuloException;
+import social.adrielsan.livraria.produtos.Produto;
+
 public abstract class Livro implements Produto {
 
     private String nome;
@@ -16,13 +21,11 @@ public abstract class Livro implements Produto {
     }
 
     public Livro(Autor autor){
-        this();
+//        if (autor == null){
+//            throw new AutorNuloException("O Autor do Livro não pode ser nulo");
+//        }
         this.autor = autor;
-    }
-
-    public Livro(){
         this.isbn = "000-00-00000-00-0";
-        this.impresso = true;
     }
 
     public double getValor() {
@@ -69,11 +72,11 @@ public abstract class Livro implements Produto {
         return this.autor != null;
     }
 
-    void mostrarDetalhes(){
+    public void mostrarDetalhes(){
         String mensagem = "Mostrando detalhes do livro\n";
         System.out.println(mensagem);
         if(this.temAutor()){
-            System.out.println("Autor: " + autor.nome);
+            System.out.println("social.adrielsan.livraria.Autor: " + autor.nome);
         }
         System.out.println("Nome: " + nome);
         System.out.println("Descricao: " + descricao);

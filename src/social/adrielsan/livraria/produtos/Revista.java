@@ -1,3 +1,6 @@
+package social.adrielsan.livraria.produtos;
+import social.adrielsan.livraria.Editora;
+
 public class Revista implements Produto, Promocional {
     private String nome;
     private String descricao;

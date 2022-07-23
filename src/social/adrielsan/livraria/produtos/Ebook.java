@@ -1,3 +1,8 @@
+package social.adrielsan.livraria.produtos;
+
+import social.adrielsan.livraria.Autor;
+import social.adrielsan.livraria.Livro;
+
 public class Ebook extends Livro implements Promocional {
     private String waterMark;
 
@@ -21,7 +26,7 @@ public class Ebook extends Livro implements Promocional {
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
-        System.out.println("aplicando desconto no Ebook");
+        System.out.println("aplicando desconto no social.adrielsan.livaria.produtos.Ebook");
         return true;
     }
 }

@@ -1,3 +1,5 @@
+package social.adrielsan.livraria;
+
 public class Autor {
     String nome;
     String email;
@@ -28,7 +30,7 @@ public class Autor {
     }
 
     void mostrarDetalhesAutor(){
-        String mensagem = "Mostrando detalhes do Autor\n";
+        String mensagem = "Mostrando detalhes do social.adrielsan.livraria.Autor\n";
         System.out.println(mensagem);
         System.out.println("Nome: " + nome);
         System.out.println("Email: " + email);

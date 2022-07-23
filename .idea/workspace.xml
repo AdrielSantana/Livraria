@@ -4,23 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55cc85f8-70fa-4606-b3ef-38e028b22c0d" name="Changes" comment="Criação do diretório e arquivo base pro projeto da biblioteca">
-      <change afterPath="$PROJECT_DIR$/src/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CadastroDeLivros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculadoraDeEstoque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Editora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LivroFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Promocional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegistroDeVendas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegrasDeDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Revista.java" afterDir="false" />
+    <list default="true" id="55cc85f8-70fa-4606-b3ef-38e028b22c0d" name="Changes" comment="Estudo até o capítulo 8 do livro POO em Java (polimorfismo e herança)">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/exception/AutorNuloException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeuPrimeiroPrograma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/teste/CadastroDeLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraDeEstoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/teste/CalculadoraDeEstoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/Editora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/MiniLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Promocional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/Promocional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/teste/RegistroDeVendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/teste/RegrasDeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/social/adrielsan/livraria/produtos/Revista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,21 +64,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RegistroDeVendas">
-    <configuration name="CadastroDeLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CadastroDeLivros" />
-      <module name="livraria" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraDeEstoque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculadoraDeEstoque" />
-      <module name="livraria" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.social.adrielsan.livraria.teste.CadastroDeLivros">
     <configuration name="MeuPrimeiroPrograma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MeuPrimeiroPrograma" />
       <module name="livraria" />
@@ -83,15 +72,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistroDeVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegistroDeVendas" />
+    <configuration name="social.adrielsan.livraria.teste.CadastroDeLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social.adrielsan.livraria.teste.CadastroDeLivros" />
       <module name="livraria" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegrasDeDesconto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegrasDeDesconto" />
+    <configuration name="social.adrielsan.livraria.teste.CalculadoraDeEstoque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social.adrielsan.livraria.teste.CalculadoraDeEstoque" />
+      <module name="livraria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="social.adrielsan.livraria.teste.RegistroDeVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social.adrielsan.livraria.teste.RegistroDeVendas" />
+      <module name="livraria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="social.adrielsan.livraria.teste.RegrasDeDesconto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social.adrielsan.livraria.teste.RegrasDeDesconto" />
       <module name="livraria" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,10 +102,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegistroDeVendas" />
-        <item itemvalue="Application.RegrasDeDesconto" />
-        <item itemvalue="Application.CadastroDeLivros" />
-        <item itemvalue="Application.CalculadoraDeEstoque" />
+        <item itemvalue="Application.social.adrielsan.livraria.teste.CadastroDeLivros" />
+        <item itemvalue="Application.social.adrielsan.livraria.teste.RegistroDeVendas" />
+        <item itemvalue="Application.social.adrielsan.livraria.teste.RegrasDeDesconto" />
+        <item itemvalue="Application.social.adrielsan.livraria.teste.CalculadoraDeEstoque" />
         <item itemvalue="Application.MeuPrimeiroPrograma" />
       </list>
     </recent_temporary>
@@ -115,7 +118,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658332250215</updated>
-      <workItem from="1658332251702" duration="18709000" />
+      <workItem from="1658332251702" duration="19054000" />
+      <workItem from="1658429648553" duration="599000" />
+      <workItem from="1658433377702" duration="2000" />
+      <workItem from="1658434352811" duration="2000" />
+      <workItem from="1658440432684" duration="1000" />
+      <workItem from="1658445752553" duration="169000" />
+      <workItem from="1658529376064" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="Criação do diretório e arquivo base pro projeto da biblioteca">
       <created>1658332724501</created>
@@ -124,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658332724501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Estudo até o capítulo 8 do livro POO em Java (polimorfismo e herança)">
+      <created>1658366894695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658366894695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do diretório e arquivo base pro projeto da biblioteca" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Estudo até o capítulo 8 do livro POO em Java (polimorfismo e herança)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo até o capítulo 8 do livro POO em Java (polimorfismo e herança)" />
   </component>
 </project>

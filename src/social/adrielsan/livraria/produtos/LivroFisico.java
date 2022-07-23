@@ -1,7 +1,13 @@
+package social.adrielsan.livraria.produtos;
+
+import social.adrielsan.livraria.Livro;
+import social.adrielsan.livraria.Autor;
+
 public class LivroFisico extends Livro implements Promocional{
 
     public LivroFisico(Autor autor){
         super(autor);
+        this.setImpresso(true);
     }
 
     public double getTaxaImpressao(){
@@ -15,7 +21,7 @@ public class LivroFisico extends Livro implements Promocional{
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
-        System.out.println("aplicando desconto no Livro Fisico");
+        System.out.println("aplicando desconto no social.adrielsan.livaria.produtos.Livro Fisico");
         return true;
     }
 }

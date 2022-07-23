@@ -1,3 +1,10 @@
+package social.adrielsan.livraria.teste;
+
+import social.adrielsan.livraria.produtos.Ebook;
+import social.adrielsan.livraria.produtos.LivroFisico;
+import social.adrielsan.livraria.Autor;
+import social.adrielsan.livraria.CarrinhoDeCompras;
+
 public class RegistroDeVendas {
     public static void main(String[] args) {
         Autor autor = new Autor();
