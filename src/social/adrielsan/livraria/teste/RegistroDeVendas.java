@@ -4,6 +4,10 @@ import social.adrielsan.livraria.produtos.Ebook;
 import social.adrielsan.livraria.produtos.LivroFisico;
 import social.adrielsan.livraria.Autor;
 import social.adrielsan.livraria.CarrinhoDeCompras;
+import social.adrielsan.livraria.produtos.Produto;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RegistroDeVendas {
     public static void main(String[] args) {
@@ -18,7 +22,7 @@ public class RegistroDeVendas {
         ebook.setNome("Test-Driven Development");
         ebook.setValor(29.90);
 
-        CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
+        CarrinhoDeCompras carrinho = new CarrinhoDeCompras(new Produto[10]);
 
         carrinho.adiciona(fisico);
         if (fisico.aplicaDescontoDe10Porcento()){
@@ -26,7 +30,11 @@ public class RegistroDeVendas {
         }
         carrinho.adiciona(ebook);
 
+        List<Produto> produtos = carrinho.getProdutos();
 
+        for (Produto produto: produtos){
+            System.out.println(produto.getValor());
+        }
 
         System.out.println("Total: " + carrinho.getTotal());
     }

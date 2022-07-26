@@ -29,12 +29,22 @@ public class Autor {
         this.cpf = cpf;
     }
 
-    void mostrarDetalhesAutor(){
-        String mensagem = "Mostrando detalhes do social.adrielsan.livraria.Autor\n";
-        System.out.println(mensagem);
-        System.out.println("Nome: " + nome);
-        System.out.println("Email: " + email);
-        System.out.println("CPF: " + cpf);
-        System.out.println("----------------");
+    @Override
+    public String toString(){
+        String mensagem = "\nMostrando detalhes do autor\n";
+        mensagem += ("\nNome: " + nome);
+        mensagem += ("\nEmail: " + email);
+        mensagem += ("\nCPF: " + cpf);
+        mensagem += ("\n----------------");
+        return mensagem;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+
+        if(!(obj instanceof Autor)) return false;
+
+        Autor outro = (Autor) obj;
+        return this.nome.equals(outro.nome);
     }
 }

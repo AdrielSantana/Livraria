@@ -18,7 +18,7 @@ public class CadastroDeLivros {
         livro.setValor(59.90);
         livro.setIsbn("799837242342304823");
 
-        livro.mostrarDetalhes();
+        System.out.println(livro);
 
         Autor outroAutor = new Autor();
         outroAutor.setNome("Paulo Silveira");
@@ -32,7 +32,5 @@ public class CadastroDeLivros {
         outroLivro.setIsbn("799837242342304824");
 
         System.out.println(outroLivro);
-
-        outroLivro.mostrarDetalhes();
     }
 }

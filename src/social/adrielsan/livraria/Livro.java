@@ -72,19 +72,24 @@ public abstract class Livro implements Produto {
         return this.autor != null;
     }
 
-    public void mostrarDetalhes(){
+    @Override
+    public String toString(){
         String mensagem = "Mostrando detalhes do livro\n";
-        System.out.println(mensagem);
         if(this.temAutor()){
-            System.out.println("social.adrielsan.livraria.Autor: " + autor.nome);
+            mensagem += ("\nAutor: " + autor.getNome());
         }
-        System.out.println("Nome: " + nome);
-        System.out.println("Descricao: " + descricao);
-        System.out.println("Valor: " + valor);
-        System.out.println("ISBN: " + isbn);
-        System.out.println("----------------");
+        mensagem += ("\nNome: " + nome);
+        mensagem += ("\nDescricao: " + descricao);
+        mensagem += ("\nValor: " + valor);
+        mensagem += ("\nISBN: " + isbn);
+        mensagem += ("\n----------------");
         if(this.temAutor()){
-            autor.mostrarDetalhesAutor();
+            mensagem += autor.toString();
         }
+        return mensagem;
+    }
+
+    @Override public int compareTo(Produto outro){
+        return Double.compare(this.getValor(), outro.getValor());
     }
 }
